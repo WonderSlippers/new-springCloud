@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/2_all.iml" filepath="$PROJECT_DIR$/.idea/2_all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/Admin/Admin.iml" filepath="$PROJECT_DIR$/all/Admin/Admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/CommComment/CommComment.iml" filepath="$PROJECT_DIR$/all/CommComment/CommComment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/Commodity/Commodity.iml" filepath="$PROJECT_DIR$/all/Commodity/Commodity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/Message/Message.iml" filepath="$PROJECT_DIR$/all/Message/Message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/Order/Order.iml" filepath="$PROJECT_DIR$/all/Order/Order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/User/User.iml" filepath="$PROJECT_DIR$/all/User/User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/all.iml" filepath="$PROJECT_DIR$/all/all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/conmmon/conmmon.iml" filepath="$PROJECT_DIR$/all/conmmon/conmmon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/gateway/gateway.iml" filepath="$PROJECT_DIR$/all/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/second_hand_shop_web/second_hand_shop_web.iml" filepath="$PROJECT_DIR$/all/second_hand_shop_web/second_hand_shop_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/shopserver/shopserver.iml" filepath="$PROJECT_DIR$/all/shopserver/shopserver.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/all/Admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/Admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/CommComment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/CommComment/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/Commodity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/Commodity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/Message/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/Message/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/Order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/Order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/User/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/User/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/conmmon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/conmmon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/second_hand_shop_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/second_hand_shop_web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/shopserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/shopserver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

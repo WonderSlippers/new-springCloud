@@ -1,0 +1,3 @@
+用户登录 1303741393@qq.com  111111
+商品编码0f44cb9d728a482db11cede90aef17f2
+nacos 启动   startup.cmd -m standalone

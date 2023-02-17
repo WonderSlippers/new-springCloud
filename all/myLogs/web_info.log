@@ -1,0 +1,519 @@
+2023-02-06 11:11:40.296 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2023-02-06 11:11:40.298 [main] INFO  com.shop.SecondHandShopApplication - Starting SecondHandShopApplication using Java 1.8.0_351 on DESKTOP-832R1UQ with PID 23416 (C:\Users\pengmaofang\Desktop\x项目\cloud\all\second_hand_shop_web\target\classes started by pengmaofang in C:\Users\pengmaofang\Desktop\x项目\cloud\all)
+2023-02-06 11:11:40.299 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 11:11:41.402 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 11:11:41.463 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 0 JPA repository interfaces.
+2023-02-06 11:11:42.081 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2023-02-06 11:11:42.093 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2023-02-06 11:11:42.093 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 11:11:42.094 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-02-06 11:11:42.213 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 11:11:42.213 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1874 ms
+2023-02-06 11:11:42.473 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-06 11:11:42.517 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2023-02-06 11:11:42.637 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-06 11:11:42.750 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 11:11:42.908 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 11:11:42.920 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 11:11:43.699 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 11:11:43.710 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 11:11:45.579 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-06 11:11:45.730 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 11:11:46.000 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2023-02-06 11:11:46.020 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path '/market'
+2023-02-06 11:11:46.021 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 11:11:46.036 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 11:11:46.063 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 11:11:46.266 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 11:11:50.529 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 10.69 seconds (JVM running for 12.651)
+2023-02-06 11:11:51.052 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-06 11:11:51.055 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 11:11:51.057 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-06 11:11:51.063 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-02-06 11:50:29.427 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2023-02-06 11:50:29.805 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$205e4b1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 11:50:30.012 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-06 11:52:05.421 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2023-02-06 11:52:05.908 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b22e5fd4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 11:52:06.105 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-06 11:54:21.365 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$49ed35e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 11:54:22.346 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 11:54:23.343 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 11:54:23.393 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 JPA repository interfaces.
+2023-02-06 11:54:23.661 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 11:54:23.809 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$49ed35e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 11:54:24.060 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2023-02-06 11:54:24.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2023-02-06 11:54:24.086 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 11:54:24.086 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 11:54:24.243 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 11:54:24.244 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1883 ms
+2023-02-06 11:54:24.597 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 11:54:24.672 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 11:54:24.674 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 11:54:24.825 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 11:54:25.020 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 11:54:25.142 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 11:54:25.155 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 11:54:26.006 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 11:54:27.978 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 11:54:28.011 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 11:54:28.019 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 11:54:28.353 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 11:54:29.159 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2023-02-06 11:54:30.076 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 11:54:30.096 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 11:54:30.129 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 11:54:30.343 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 11:54:34.656 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2023-02-06 11:54:34.681 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path '/market'
+2023-02-06 11:54:34.938 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8087 register finished
+2023-02-06 11:54:34.939 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 15.198 seconds (JVM running for 17.213)
+2023-02-06 11:59:46.138 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6d37e2c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 11:59:47.034 [main] INFO  com.shop.SecondHandShopApplication - The following profiles are active: -Dserver.port=8898
+2023-02-06 11:59:48.090 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 11:59:48.143 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 JPA repository interfaces.
+2023-02-06 11:59:48.461 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 11:59:48.589 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6d37e2c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 11:59:48.893 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2023-02-06 11:59:48.914 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2023-02-06 11:59:48.928 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 11:59:48.929 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 11:59:49.099 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 11:59:49.099 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2051 ms
+2023-02-06 11:59:49.475 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 11:59:49.554 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 11:59:49.556 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 11:59:49.742 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 11:59:49.958 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 11:59:50.087 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 11:59:50.101 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 11:59:51.093 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 11:59:53.145 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 11:59:53.182 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 11:59:53.188 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 11:59:53.512 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 11:59:54.349 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2023-02-06 11:59:55.288 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 11:59:55.311 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 11:59:55.347 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 11:59:55.574 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 11:59:59.867 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2023-02-06 11:59:59.889 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8087"]
+2023-02-06 11:59:59.889 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-02-06 11:59:59.892 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2023-02-06 11:59:59.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8087"]
+2023-02-06 11:59:59.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8087"]
+2023-02-06 11:59:59.896 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-06 11:59:59.903 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-06 11:59:59.906 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 11:59:59.908 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-06 11:59:59.920 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-02-06 12:00:21.070 [Thread-40] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-06 12:00:21.076 [Thread-40] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-06 12:00:21.076 [Thread-40] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:00:21.080 [Thread-40] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:00:21.083 [Thread-40] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-06 12:00:21.094 [Thread-40] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-02-06 12:01:17.717 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d657e6f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:01:18.544 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:01:19.584 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 12:01:19.640 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 0 JPA repository interfaces.
+2023-02-06 12:01:19.947 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 12:01:20.133 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d657e6f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:01:20.449 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8898 (http)
+2023-02-06 12:01:20.495 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8898"]
+2023-02-06 12:01:20.507 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 12:01:20.507 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 12:01:20.674 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 12:01:20.675 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2118 ms
+2023-02-06 12:01:21.039 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 12:01:21.114 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 12:01:21.116 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 12:01:21.307 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 12:01:21.530 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 12:01:21.656 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 12:01:21.670 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 12:01:22.675 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:01:24.860 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 12:01:24.892 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:01:24.901 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:01:25.253 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:01:26.451 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2023-02-06 12:01:27.460 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 12:01:27.488 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 12:01:27.546 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 12:01:27.836 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 12:01:30.785 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a7126f27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:01:31.618 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:01:32.190 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8898"]
+2023-02-06 12:01:32.220 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8898 (http) with context path '/market'
+2023-02-06 12:01:32.358 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8898 register finished
+2023-02-06 12:01:32.361 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 16.195 seconds (JVM running for 17.695)
+2023-02-06 12:01:32.633 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 12:01:32.689 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 0 JPA repository interfaces.
+2023-02-06 12:01:33.004 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 12:01:33.171 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a7126f27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:01:33.471 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2023-02-06 12:01:33.486 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8899"]
+2023-02-06 12:01:33.495 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 12:01:33.496 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 12:01:33.711 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 12:01:33.711 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2076 ms
+2023-02-06 12:01:34.303 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 12:01:34.489 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 12:01:34.493 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 12:01:34.766 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 12:01:35.174 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 12:01:35.364 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 12:01:35.383 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 12:01:36.337 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:01:38.681 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 12:01:38.711 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:01:38.719 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:01:39.180 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:01:40.238 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2023-02-06 12:01:41.447 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 12:01:41.488 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 12:01:41.543 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 12:01:41.808 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 12:01:46.232 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8899"]
+2023-02-06 12:01:46.258 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path '/market'
+2023-02-06 12:01:46.421 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8899 register finished
+2023-02-06 12:01:46.425 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 17.31 seconds (JVM running for 18.583)
+2023-02-06 12:04:58.662 [Thread-42] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-06 12:04:58.669 [Thread-42] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-06 12:04:58.669 [Thread-42] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:04:58.672 [Thread-42] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:04:58.675 [Thread-42] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-06 12:04:58.687 [Thread-42] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-02-06 12:04:59.038 [Thread-44] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-06 12:04:59.042 [Thread-44] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-06 12:04:59.043 [Thread-44] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:04:59.046 [Thread-44] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:04:59.052 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-06 12:04:59.063 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-02-06 12:11:48.975 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bd3a8300] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:11:49.960 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:11:51.032 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 12:11:51.089 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 0 JPA repository interfaces.
+2023-02-06 12:11:51.445 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 12:11:51.651 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bd3a8300] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:11:51.973 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2023-02-06 12:11:51.991 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8899"]
+2023-02-06 12:11:52.004 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 12:11:52.005 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 12:11:52.187 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 12:11:52.188 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2213 ms
+2023-02-06 12:11:52.563 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 12:11:52.646 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 12:11:52.650 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 12:11:52.830 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 12:11:53.060 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 12:11:53.194 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 12:11:53.208 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 12:11:54.236 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:11:56.588 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 12:11:56.636 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:11:56.642 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:11:57.274 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:11:58.496 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2023-02-06 12:11:59.613 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 12:11:59.688 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 12:11:59.738 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 12:12:00.070 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 12:12:02.697 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$254e8035] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:12:03.541 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:12:04.384 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8899"]
+2023-02-06 12:12:04.417 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path '/market'
+2023-02-06 12:12:04.577 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8899 register finished
+2023-02-06 12:12:04.580 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 17.419 seconds (JVM running for 18.889)
+2023-02-06 12:12:04.651 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 12:12:04.704 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 0 JPA repository interfaces.
+2023-02-06 12:12:05.024 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 12:12:05.225 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$254e8035] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:12:05.543 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8898 (http)
+2023-02-06 12:12:05.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8898"]
+2023-02-06 12:12:05.571 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 12:12:05.572 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 12:12:05.800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 12:12:05.800 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2246 ms
+2023-02-06 12:12:06.276 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 12:12:06.357 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 12:12:06.359 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 12:12:06.619 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 12:12:06.895 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 12:12:07.040 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 12:12:07.056 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 12:12:08.056 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:12:10.170 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 12:12:10.205 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:12:10.210 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:12:10.596 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:12:11.476 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2023-02-06 12:12:12.473 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 12:12:12.499 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 12:12:12.537 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 12:12:12.786 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 12:12:17.122 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8898"]
+2023-02-06 12:12:17.151 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8898 (http) with context path '/market'
+2023-02-06 12:12:17.274 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8898 register finished
+2023-02-06 12:12:17.277 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 16.274 seconds (JVM running for 17.688)
+2023-02-06 12:19:17.354 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$77e7bbbb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:19:18.250 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:19:19.405 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 12:19:19.461 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 JPA repository interfaces.
+2023-02-06 12:19:19.825 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 12:19:20.011 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$77e7bbbb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:19:20.339 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8898 (http)
+2023-02-06 12:19:20.494 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8898"]
+2023-02-06 12:19:20.518 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 12:19:20.521 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 12:19:20.962 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 12:19:20.963 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2701 ms
+2023-02-06 12:19:22.322 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 12:19:22.428 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 12:19:22.435 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 12:19:22.690 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 12:19:22.960 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 12:19:23.112 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 12:19:23.127 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 12:19:23.209 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d1ed8925] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:19:24.223 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:19:24.294 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:19:25.515 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 12:19:25.575 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 0 JPA repository interfaces.
+2023-02-06 12:19:26.057 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 12:19:26.327 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d1ed8925] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:19:26.689 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2023-02-06 12:19:26.712 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8899"]
+2023-02-06 12:19:26.725 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 12:19:26.725 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 12:19:26.939 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 12:19:26.939 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2702 ms
+2023-02-06 12:19:27.316 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 12:19:27.365 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:19:27.372 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:19:27.457 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 12:19:27.554 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 12:19:27.556 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 12:19:27.767 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:19:27.794 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 12:19:28.098 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 12:19:28.243 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 12:19:28.259 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 12:19:28.862 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2023-02-06 12:19:29.406 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:19:29.998 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 12:19:30.026 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 12:19:30.073 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 12:19:30.459 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 12:19:32.389 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 12:19:32.431 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:19:32.437 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:19:32.881 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:19:33.876 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2023-02-06 12:19:35.011 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 12:19:35.048 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 12:19:35.095 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 12:19:35.409 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 12:19:35.542 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8898"]
+2023-02-06 12:19:35.570 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8898 (http) with context path '/market'
+2023-02-06 12:19:35.709 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8898 register finished
+2023-02-06 12:19:35.711 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 20.384 seconds (JVM running for 21.765)
+2023-02-06 12:19:39.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8899"]
+2023-02-06 12:19:39.930 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path '/market'
+2023-02-06 12:19:40.066 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8899 register finished
+2023-02-06 12:19:40.068 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 19.014 seconds (JVM running for 20.832)
+2023-02-06 12:28:51.985 [Thread-44] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-06 12:28:51.992 [Thread-44] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-06 12:28:51.993 [Thread-44] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:28:51.996 [Thread-44] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:28:51.999 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-06 12:28:52.010 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-02-06 12:28:52.369 [Thread-47] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-06 12:28:52.373 [Thread-47] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-06 12:28:52.373 [Thread-47] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:28:52.376 [Thread-47] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:28:52.380 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-06 12:28:52.391 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-02-06 12:29:44.633 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$443a41d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:29:45.570 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:29:47.036 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 12:29:47.086 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 JPA repository interfaces.
+2023-02-06 12:29:47.386 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 12:29:47.659 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$443a41d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:29:48.165 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2023-02-06 12:29:48.194 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8899"]
+2023-02-06 12:29:48.209 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 12:29:48.209 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 12:29:48.520 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 12:29:48.521 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2938 ms
+2023-02-06 12:29:49.194 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 12:29:49.369 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 12:29:49.372 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 12:29:49.642 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 12:29:49.962 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 12:29:50.138 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 12:29:50.155 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 12:29:51.680 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:29:54.611 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 12:29:54.654 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:29:54.661 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:29:55.184 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:29:56.261 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2023-02-06 12:29:57.385 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 12:29:57.419 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 12:29:57.508 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 12:29:57.802 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 12:30:02.238 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8899"]
+2023-02-06 12:30:02.268 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path '/market'
+2023-02-06 12:30:02.387 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second-hand-shop 169.254.177.19:8899 register finished
+2023-02-06 12:30:02.389 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 19.372 seconds (JVM running for 20.923)
+2023-02-06 12:30:29.511 [http-nio-8899-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 12:30:29.511 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-06 12:30:29.523 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2023-02-06 12:33:34.505 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2b374eaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:33:35.374 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:33:36.375 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 12:33:36.429 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 JPA repository interfaces.
+2023-02-06 12:33:36.712 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 12:33:36.869 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2b374eaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:33:37.131 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2023-02-06 12:33:37.146 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8899"]
+2023-02-06 12:33:37.156 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 12:33:37.157 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 12:33:37.312 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 12:33:37.312 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1925 ms
+2023-02-06 12:33:37.647 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 12:33:37.720 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 12:33:37.722 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 12:33:37.866 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 12:33:38.092 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 12:33:38.214 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 12:33:38.225 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 12:33:39.097 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:33:41.211 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 12:33:41.243 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:33:41.249 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:33:41.437 [Thread-43] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-06 12:33:41.442 [Thread-43] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-06 12:33:41.442 [Thread-43] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:33:41.446 [Thread-43] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:33:41.450 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-06 12:33:41.461 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-02-06 12:33:55.250 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$40a9941] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:33:56.075 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:33:57.177 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 12:33:57.240 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 0 JPA repository interfaces.
+2023-02-06 12:33:57.788 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 12:33:57.957 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$40a9941] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:33:58.271 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8898 (http)
+2023-02-06 12:33:58.290 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8898"]
+2023-02-06 12:33:58.304 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 12:33:58.305 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 12:33:58.526 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 12:33:58.528 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2440 ms
+2023-02-06 12:33:59.023 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 12:33:59.128 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 12:33:59.131 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 12:33:59.341 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 12:33:59.584 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 12:33:59.722 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 12:33:59.737 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 12:34:00.295 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c3a7c949] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:34:00.774 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:34:01.176 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:34:02.335 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 12:34:02.421 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76ms. Found 0 JPA repository interfaces.
+2023-02-06 12:34:02.840 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
+2023-02-06 12:34:03.033 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c3a7c949] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 12:34:03.233 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 12:34:03.266 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:34:03.272 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:34:03.310 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2023-02-06 12:34:03.326 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8899"]
+2023-02-06 12:34:03.336 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-06 12:34:03.336 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-02-06 12:34:03.510 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring embedded WebApplicationContext
+2023-02-06 12:34:03.510 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2322 ms
+2023-02-06 12:34:03.654 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:34:03.890 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-02-06 12:34:03.966 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.18.Final}
+2023-02-06 12:34:03.969 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-02-06 12:34:04.124 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-02-06 12:34:04.322 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-06 12:34:04.438 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-06 12:34:04.452 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 12:34:04.516 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2023-02-06 12:34:05.326 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:34:05.519 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 12:34:05.541 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 12:34:05.584 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 12:34:05.793 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 12:34:07.376 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-02-06 12:34:07.408 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:34:07.415 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-06 12:34:07.742 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:34:08.531 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2023-02-06 12:34:09.425 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-06 12:34:09.446 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-06 12:34:09.482 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-06 12:34:09.692 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
+2023-02-06 12:34:10.175 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8898"]
+2023-02-06 12:34:10.200 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8898 (http) with context path '/market'
+2023-02-06 12:34:10.305 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second-hand-shop 169.254.177.19:8898 register finished
+2023-02-06 12:34:10.308 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 16.881 seconds (JVM running for 18.424)
+2023-02-06 12:34:13.977 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8899"]
+2023-02-06 12:34:14.001 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path '/market'
+2023-02-06 12:34:14.110 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second-hand-shop 169.254.177.19:8899 register finished
+2023-02-06 12:34:14.112 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 15.539 seconds (JVM running for 17.154)
+2023-02-06 12:34:53.802 [http-nio-8898-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 12:34:53.802 [http-nio-8898-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-06 12:34:53.814 [http-nio-8898-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2023-02-06 12:34:54.117 [http-nio-8899-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 12:34:54.117 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-06 12:34:54.129 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2023-02-06 12:35:47.894 [http-nio-8898-exec-7] INFO  com.shop.service.UserService - 用户1303741393@qq.com登录成功
+2023-02-06 12:37:14.463 [Thread-40] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-06 12:37:14.468 [Thread-40] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-06 12:37:14.469 [Thread-40] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:37:14.473 [Thread-40] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:37:14.476 [Thread-40] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-06 12:37:14.487 [Thread-40] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-02-06 12:37:19.488 [Thread-37] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-06 12:37:19.493 [Thread-37] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-06 12:37:19.494 [Thread-37] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-06 12:37:19.497 [Thread-37] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 12:37:19.500 [Thread-37] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-06 12:37:19.509 [Thread-37] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
