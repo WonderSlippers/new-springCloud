@@ -1,6 +1,6 @@
 2023-02-06 11:11:40.296 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
-2023-02-06 11:11:40.298 [main] INFO  com.shop.SecondHandShopApplication - Starting SecondHandShopApplication using Java 1.8.0_351 on DESKTOP-832R1UQ with PID 23416 (C:\Users\pengmaofang\Desktop\x项目\cloud\all\second_hand_shop_web\target\classes started by pengmaofang in C:\Users\pengmaofang\Desktop\x项目\cloud\all)
-2023-02-06 11:11:40.299 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 11:11:40.298 [main] INFO  com.shop.AdminStarter - Starting AdminStarter using Java 1.8.0_351 on DESKTOP-832R1UQ with PID 23416 (C:\Users\pengmaofang\Desktop\x项目\cloud\all\second_hand_shop_web\target\classes started by pengmaofang in C:\Users\pengmaofang\Desktop\x项目\cloud\all)
+2023-02-06 11:11:40.299 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 11:11:41.402 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 11:11:41.463 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 0 JPA repository interfaces.
 2023-02-06 11:11:42.081 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
@@ -25,7 +25,7 @@
 2023-02-06 11:11:46.036 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
 2023-02-06 11:11:46.063 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
 2023-02-06 11:11:46.266 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
-2023-02-06 11:11:50.529 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 10.69 seconds (JVM running for 12.651)
+2023-02-06 11:11:50.529 [main] INFO  com.shop.AdminStarter - Started AdminStarter in 10.69 seconds (JVM running for 12.651)
 2023-02-06 11:11:51.052 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2023-02-06 11:11:51.055 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-02-06 11:11:51.057 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
@@ -41,7 +41,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2023-02-06 11:54:21.365 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$49ed35e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-06 11:54:22.346 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 11:54:22.346 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 11:54:23.343 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 11:54:23.393 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 JPA repository interfaces.
 2023-02-06 11:54:23.661 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
@@ -74,9 +74,9 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 11:54:34.656 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
 2023-02-06 11:54:34.681 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path '/market'
 2023-02-06 11:54:34.938 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8087 register finished
-2023-02-06 11:54:34.939 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 15.198 seconds (JVM running for 17.213)
+2023-02-06 11:54:34.939 [main] INFO  com.shop.AdminStarter - Started AdminStarter in 15.198 seconds (JVM running for 17.213)
 2023-02-06 11:59:46.138 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6d37e2c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-06 11:59:47.034 [main] INFO  com.shop.SecondHandShopApplication - The following profiles are active: -Dserver.port=8898
+2023-02-06 11:59:47.034 [main] INFO  com.shop.AdminStarter - The following profiles are active: -Dserver.port=8898
 2023-02-06 11:59:48.090 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 11:59:48.143 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 JPA repository interfaces.
 2023-02-06 11:59:48.461 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
@@ -126,7 +126,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:00:21.083 [Thread-40] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2023-02-06 12:00:21.094 [Thread-40] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 2023-02-06 12:01:17.717 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d657e6f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-06 12:01:18.544 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:01:18.544 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 12:01:19.584 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 12:01:19.640 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 0 JPA repository interfaces.
 2023-02-06 12:01:19.947 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
@@ -157,11 +157,11 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:01:27.546 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
 2023-02-06 12:01:27.836 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
 2023-02-06 12:01:30.785 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a7126f27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-06 12:01:31.618 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:01:31.618 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 12:01:32.190 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8898"]
 2023-02-06 12:01:32.220 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8898 (http) with context path '/market'
 2023-02-06 12:01:32.358 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8898 register finished
-2023-02-06 12:01:32.361 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 16.195 seconds (JVM running for 17.695)
+2023-02-06 12:01:32.361 [main] INFO  com.shop.AdminStarter - Started AdminStarter in 16.195 seconds (JVM running for 17.695)
 2023-02-06 12:01:32.633 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 12:01:32.689 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 0 JPA repository interfaces.
 2023-02-06 12:01:33.004 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
@@ -194,7 +194,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:01:46.232 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8899"]
 2023-02-06 12:01:46.258 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path '/market'
 2023-02-06 12:01:46.421 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8899 register finished
-2023-02-06 12:01:46.425 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 17.31 seconds (JVM running for 18.583)
+2023-02-06 12:01:46.425 [main] INFO  com.shop.AdminStarter - Started AdminStarter in 17.31 seconds (JVM running for 18.583)
 2023-02-06 12:04:58.662 [Thread-42] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
 2023-02-06 12:04:58.669 [Thread-42] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
 2023-02-06 12:04:58.669 [Thread-42] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
@@ -208,7 +208,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:04:59.052 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2023-02-06 12:04:59.063 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 2023-02-06 12:11:48.975 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bd3a8300] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-06 12:11:49.960 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:11:49.960 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 12:11:51.032 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 12:11:51.089 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 0 JPA repository interfaces.
 2023-02-06 12:11:51.445 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
@@ -239,11 +239,11 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:11:59.738 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
 2023-02-06 12:12:00.070 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryCommCommentListUsingGET_1
 2023-02-06 12:12:02.697 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$254e8035] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-06 12:12:03.541 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:12:03.541 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 12:12:04.384 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8899"]
 2023-02-06 12:12:04.417 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path '/market'
 2023-02-06 12:12:04.577 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8899 register finished
-2023-02-06 12:12:04.580 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 17.419 seconds (JVM running for 18.889)
+2023-02-06 12:12:04.580 [main] INFO  com.shop.AdminStarter - Started AdminStarter in 17.419 seconds (JVM running for 18.889)
 2023-02-06 12:12:04.651 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 12:12:04.704 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 0 JPA repository interfaces.
 2023-02-06 12:12:05.024 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
@@ -276,9 +276,9 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:12:17.122 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8898"]
 2023-02-06 12:12:17.151 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8898 (http) with context path '/market'
 2023-02-06 12:12:17.274 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8898 register finished
-2023-02-06 12:12:17.277 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 16.274 seconds (JVM running for 17.688)
+2023-02-06 12:12:17.277 [main] INFO  com.shop.AdminStarter - Started AdminStarter in 16.274 seconds (JVM running for 17.688)
 2023-02-06 12:19:17.354 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$77e7bbbb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-06 12:19:18.250 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:19:18.250 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 12:19:19.405 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 12:19:19.461 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 JPA repository interfaces.
 2023-02-06 12:19:19.825 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
@@ -299,7 +299,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:19:23.112 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
 2023-02-06 12:19:23.127 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 2023-02-06 12:19:23.209 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d1ed8925] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-06 12:19:24.223 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:19:24.223 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 12:19:24.294 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-02-06 12:19:25.515 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 12:19:25.575 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 0 JPA repository interfaces.
@@ -342,11 +342,11 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:19:35.542 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8898"]
 2023-02-06 12:19:35.570 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8898 (http) with context path '/market'
 2023-02-06 12:19:35.709 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8898 register finished
-2023-02-06 12:19:35.711 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 20.384 seconds (JVM running for 21.765)
+2023-02-06 12:19:35.711 [main] INFO  com.shop.AdminStarter - Started AdminStarter in 20.384 seconds (JVM running for 21.765)
 2023-02-06 12:19:39.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8899"]
 2023-02-06 12:19:39.930 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path '/market'
 2023-02-06 12:19:40.066 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second_hand_shop 169.254.177.19:8899 register finished
-2023-02-06 12:19:40.068 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 19.014 seconds (JVM running for 20.832)
+2023-02-06 12:19:40.068 [main] INFO  com.shop.AdminStarter - Started AdminStarter in 19.014 seconds (JVM running for 20.832)
 2023-02-06 12:28:51.985 [Thread-44] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
 2023-02-06 12:28:51.992 [Thread-44] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
 2023-02-06 12:28:51.993 [Thread-44] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
@@ -360,7 +360,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:28:52.380 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2023-02-06 12:28:52.391 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 2023-02-06 12:29:44.633 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$443a41d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-06 12:29:45.570 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:29:45.570 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 12:29:47.036 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 12:29:47.086 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 JPA repository interfaces.
 2023-02-06 12:29:47.386 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
@@ -393,12 +393,12 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:30:02.238 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8899"]
 2023-02-06 12:30:02.268 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path '/market'
 2023-02-06 12:30:02.387 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second-hand-shop 169.254.177.19:8899 register finished
-2023-02-06 12:30:02.389 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 19.372 seconds (JVM running for 20.923)
+2023-02-06 12:30:02.389 [main] INFO  com.shop.AdminStarter - Started AdminStarter in 19.372 seconds (JVM running for 20.923)
 2023-02-06 12:30:29.511 [http-nio-8899-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-02-06 12:30:29.511 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2023-02-06 12:30:29.523 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
 2023-02-06 12:33:34.505 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2b374eaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-06 12:33:35.374 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:33:35.374 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 12:33:36.375 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 12:33:36.429 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 JPA repository interfaces.
 2023-02-06 12:33:36.712 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
@@ -429,7 +429,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:33:41.450 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2023-02-06 12:33:41.461 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 2023-02-06 12:33:55.250 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$40a9941] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-06 12:33:56.075 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:33:56.075 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 12:33:57.177 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 12:33:57.240 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 0 JPA repository interfaces.
 2023-02-06 12:33:57.788 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
@@ -451,7 +451,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:33:59.737 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 2023-02-06 12:34:00.295 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c3a7c949] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2023-02-06 12:34:00.774 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-02-06 12:34:01.176 [main] INFO  com.shop.SecondHandShopApplication - No active profile set, falling back to default profiles: default
+2023-02-06 12:34:01.176 [main] INFO  com.shop.AdminStarter - No active profile set, falling back to default profiles: default
 2023-02-06 12:34:02.335 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-02-06 12:34:02.421 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76ms. Found 0 JPA repository interfaces.
 2023-02-06 12:34:02.840 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d9d99daa-8a6a-3035-b643-8275d5703d4a
@@ -493,11 +493,11 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-02-06 12:34:10.175 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8898"]
 2023-02-06 12:34:10.200 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8898 (http) with context path '/market'
 2023-02-06 12:34:10.305 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second-hand-shop 169.254.177.19:8898 register finished
-2023-02-06 12:34:10.308 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 16.881 seconds (JVM running for 18.424)
+2023-02-06 12:34:10.308 [main] INFO  com.shop.AdminStarter - Started AdminStarter in 16.881 seconds (JVM running for 18.424)
 2023-02-06 12:34:13.977 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8899"]
 2023-02-06 12:34:14.001 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path '/market'
 2023-02-06 12:34:14.110 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, second-hand-shop 169.254.177.19:8899 register finished
-2023-02-06 12:34:14.112 [main] INFO  com.shop.SecondHandShopApplication - Started SecondHandShopApplication in 15.539 seconds (JVM running for 17.154)
+2023-02-06 12:34:14.112 [main] INFO  com.shop.AdminStarter - Started AdminStarter in 15.539 seconds (JVM running for 17.154)
 2023-02-06 12:34:53.802 [http-nio-8898-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/market] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-02-06 12:34:53.802 [http-nio-8898-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2023-02-06 12:34:53.814 [http-nio-8898-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms

@@ -10,7 +10,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="shopserver" value="02e61791-a559-4b66-9694-72cc1a41eb82" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>

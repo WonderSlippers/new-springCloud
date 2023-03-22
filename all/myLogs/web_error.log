@@ -35,7 +35,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
-	at com.shop.SecondHandShopApplication.main(SecondHandShopApplication.java:12)
+	at com.shop.AdminStarter.main(AdminStarter.java:12)
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
@@ -96,7 +96,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
-	at com.shop.SecondHandShopApplication.main(SecondHandShopApplication.java:12)
+	at com.shop.AdminStarter.main(AdminStarter.java:12)
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
@@ -157,7 +157,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
-	at com.shop.SecondHandShopApplication.main(SecondHandShopApplication.java:12)
+	at com.shop.AdminStarter.main(AdminStarter.java:12)
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
@@ -218,7 +218,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
-	at com.shop.SecondHandShopApplication.main(SecondHandShopApplication.java:12)
+	at com.shop.AdminStarter.main(AdminStarter.java:12)
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
@@ -350,7 +350,7 @@ org.apache.catalina.LifecycleException: Protocol handler start failed
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.shop.SecondHandShopApplication.main(SecondHandShopApplication.java:12)
+	at com.shop.AdminStarter.main(AdminStarter.java:12)
 Caused by: java.net.BindException: Address already in use: bind
 	at sun.nio.ch.Net.bind0(Native Method)
 	at sun.nio.ch.Net.bind(Net.java:438)

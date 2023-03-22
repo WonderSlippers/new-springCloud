@@ -10,7 +10,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="conmmon" value="65747535-7e49-499e-b496-bae056f7c03f" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
